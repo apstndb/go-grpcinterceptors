@@ -1,0 +1,2 @@
+- [selectlogging](./selectlogging): derived version of [`logging.StreamClientInterceptor`](https://pkg.go.dev/github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging) with [`selector.Matcher`](https://pkg.go.dev/github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/selector#Matcher) of [go-grpc-middleware](https://github.com/grpc-ecosystem/go-grpc-middleware).
+  - It can filter `SendMsg` and `RecvMsg` using `ReqOrNil`.
